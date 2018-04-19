@@ -3,10 +3,18 @@ function forLoop(array) {
     if (i === 1) {
       array.push("I am 1 strange loop.")
     } else {
-      array.push('I am ${i} strange loops.');
+      array.push("I am ${i} strange loop${i === 0 ? '' : 's'}.");
     }
   }  
   return array;
 }
 
-function whileLoop()
+var n = 5;
+
+function whileLoop(n) {
+  let countdown = n;
+  
+  while(countdown > 0) {
+    console.log(countdown--);
+  }
+ }
