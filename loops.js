@@ -26,5 +26,5 @@ function whileLoop(n) {
        array.pop();
      } while (array.length > -1 && maybeTrue());
    }
-   return 
+   return array;
  }
